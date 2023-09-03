@@ -1,0 +1,36 @@
+paper {
+    padding: 16px;
+    width: 300px;
+}
+
+textField {
+    margin-bottom: 16px;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+.login-container>* {
+    margin-bottom: 100px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.formControl {
+    width: '100%';
+    margin-bottom: '20px';
+}
+
+.buttonStyle {
+    margin-top: '20px'
+}

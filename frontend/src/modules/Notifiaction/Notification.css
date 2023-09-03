@@ -1,0 +1,14 @@
+.userProfile{
+    margin: 15px;
+}
+.userProfile.loadingDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.userProfile .header {
+    text-align: center;
+    width: 100%;   
+}

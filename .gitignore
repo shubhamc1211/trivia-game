@@ -1,0 +1,6 @@
+#IntelliJ
+.idea
+.DS_Store
+*.tmp
+*.zip
+node_modules

@@ -1,0 +1,64 @@
+.games-container {
+    display: block;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.game-card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.game-card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    background-color: #3676cb;
+    color: white;
+    border: 1px solid #aaa;
+    border-radius: 5px 5px 0px 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.game-card-header-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.game-card-header-category {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.game-card-body {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 0px 0px 5px 5px;
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    padding: 12px
+}
+
+.game-card-body-difficulty {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.game-card-body-date {
+    font-size: 16px;
+    font-weight: bold;
+}

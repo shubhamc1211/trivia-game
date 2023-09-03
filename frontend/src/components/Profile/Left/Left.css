@@ -1,0 +1,25 @@
+.Left .personalInformation{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Left .personalData{
+    display: flex;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.Left .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-bhp9pd-MuiPaper-root-MuiCard-root{
+    background-color: white;
+}
+
+.Left .Box{
+    background-color: #3676cb;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-grid;
+    align-items: center;
+    margin: 5px;
+    color: white;
+}

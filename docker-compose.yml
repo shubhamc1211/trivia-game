@@ -1,0 +1,11 @@
+services:
+  frontend:
+    build:
+      context: ./CloudRun
+    image: us-central1-docker.pkg.dev/trivia-titans-sdp32/frontend-repo/frontend:latest
+    ports:
+      - 3000:3000
+    container_name: frontend
+    volumes:
+      - .:/trivia_titans
+    tty: true
